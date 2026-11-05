@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>MHMMTH 3D Engine V1</title><link rel="stylesheet" href="./style.css">
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.187.0/build/three.module.js"}}</script>
+</head>
+<body>
+<div id="hud"><strong>MHMMTH 3D ENGINE</strong><span>V1 • OPEN WORLD TEST</span><button id="toggleHelp">HELP</button></div>
+<div id="help">Drag: rotate camera • Left joystick: move • Right side: camera look • BUILD: add a building • SAVE: download scene JSON</div>
+<div id="stats">Loading…</div>
+<div id="controls">
+  <div id="stick"><div id="knob"></div></div>
+  <div id="lookZone"></div>
+  <div id="actions"><button id="build">BUILD</button><button id="save">SAVE</button><button id="reset">RESET</button></div>
+</div>
+<script type="module" src="./src/main.js"></script>
+</body></html>
